@@ -57,6 +57,44 @@ body {
     font-size: 2vw;
 }
 
+#message {
+    color: white;
+    font-size: 3vw;
+    margin-bottom: 4vh;
+}
+
+#button {
+    width: fit-content;
+    padding: 1vw;
+    color: white;
+    font-size: 2vw;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8%;
+    background-color: #FAB201;
+}
+
+#result {
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    line-height: 100px;
+    font-size: 60px;
+    color: white;
+}
+
 @media all and (orientation: portrait){
     #header {
         font-size: 6vh;
