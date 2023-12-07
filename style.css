@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', sans-serif;}
+
+body {
+    background-color: dodgerblue;
+}
+
+.flex {
+    display: flex;
+}
+
+#header {
+    font-size: 10vh;
+    color: #FAB201;
+    font-weight: 900;
+    -webkit-text-stroke: 3.5px white;
+}
+
+#gameSection {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-evenly;   
+}
+
+#gameArea {
+    flex-direction: column;
+}
+
+.lines {
+    width: 8vw;
+    height: 15vh;
+    margin: .3vw;
+    display: flex;
+    font-size: 7vw;
+    color: #FAB201;
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    justify-content: center;
+    background-color: white;
+}
+
+.gameRow {
+    flex-direction: row;
+}
+
+#footer {
+    color: white;
+    font-size: 2vw;
+}
+
+@media all and (orientation: portrait){
+    #header {
+        font-size: 6vh;
+        font-weight: 600;
+        text-align: center;
+        -webkit-text-stroke: 2.5px white;
+    }
+
+    .lines {
+        width: 19vw;
+        height: 9vh;
+        margin: 1vw;
+        display: flex;
+        font-size: 15vw;
+    }
+
+    #footer {
+        font-size: 5vw;
+    }
+}
+
+@media all and (max-width: 500px){
+    #header {
+        font-size: 7vh;
+        font-weight: 800;
+        -webkit-text-stroke: 2.5px white;
+    }
+
+    .lines {
+        width: 10wh;
+        height: 5vh;
+        margin: .8vw;
+        display: flex;
+        font-size: 15vw;
+    }
+
+    #footer {
+        font-size: 5.5vw;
+    }
+}
+
+@media all and (max-width: 800px){
+    #header {
+        font-size: 7vh;
+        font-weight: 800;
+        -webkit-text-stroke: 2.5px white;
+    }
+
+    .lines {
+        width: 19vw;
+        height: 10vh;
+        margin: .8vw;
+        display: flex;
+        font-size: 15vw;
+    }
+
+    #footer {
+        font-size: 5.5vw;
+    }
+}
+
+@media all and (max-width: 1200px){
+    #header {
+        font-size: 9vh;
+    }
+
+    .lines {
+        width: 19vw;
+        height: 13vh;
+        font-size: 12vw;
+    }
+}
